@@ -20,3 +20,10 @@ a,
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
 }
+
+
+@media only screen and (max-width: 600px) {
+  #app {
+    margin: 1rem;
+  }
+}

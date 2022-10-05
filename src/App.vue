@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <div class="navbar sticky w-full flex justify-between m-0 p-0 container mx-auto border-solid border-2  border-indigo-600"> 
+    <div class="navbar sticky w-full flex justify-between m-0 p-0 container mx-auto "> 
       <p class="name">Jerry Velasquez</p>
       <p class="occupation">Web Developer__</p>
 
