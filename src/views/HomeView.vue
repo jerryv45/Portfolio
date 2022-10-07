@@ -115,7 +115,7 @@
 <div class="contact-section flex flex-col py-24">
   <div class="talk text-4xl font-medium">Let's Talk</div>
   <h3 class="contact flex py-20">
-    <div class="contact-me text-8xl font-bold underline underline-offset-3">Contact Me </div> 
+    <div class="contact-me text-8xl font-bold underline underline-offset-3 cursor-pointer">Contact Me </div> 
     <div class="arrow pt-4 ml-6 w-24 h-24 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Exit</title><path d="M320 176v-40a40 40 0 00-40-40H88a40 40 0 00-40 40v240a40 40 0 0040 40h192a40 40 0 0040-40v-40M384 176l80 80-80 80M191 256h273" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>  </div>
 </h3>
 </div>
