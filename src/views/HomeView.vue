@@ -10,8 +10,22 @@
   <div class="section-2">
     <div class="section-2-wrapper flex items-center m-8 sm:m-8 lg:m-24 justify-evenly">
       <div class="floaty text-sm m-2 w-10">About</div>
-      <h3 class="paragraph sm:text-3xl md:text-2xl lg:text-3xl  sm:p-6  lg:p-10 text-center  ">My name’s Jerry Velasquez and I have a passion for web design and UX/UI Development. I also enjoy Hip Hop/R&B music & I love to listen to music while I code.</h3>
-      <div class="floaty-2 text-xs sm:text-xs m-2 w-10 ">Resume</div>
+      <h3 class="paragraph sm:text-3xl md:text-2xl lg:text-3xl  sm:p-6  lg:p-10 text-center  ">My name's Jerry Velasquez and I have a passion for web design and UX/UI Development. I also enjoy Hip Hop/R&B music & I love to listen to music while I code.</h3>
+      <!-- <a class="floaty-2 text-xs sm:text-xs m-2 w-10 " target="_blank" href="">Resume</a> -->
+      
+      <!--  -->
+      <div>
+      <b-button v-b-modal.modal-xl>Launch overflowing modal</b-button>
+
+      <b-modal id="modal-xl" title="Extra Large Modal" size="xl">
+        <p class="m-0 w-full h-full" v-for="i in 1" :key="i">
+          <iframe src="public/uploads/JV WD Resume 2.pdf" frameborder="0" width="100%" height="700px"></iframe>
+        </p>
+      </b-modal>
+    </div>
+      <!--  -->
+
+
     </div> 
   </div>
 
@@ -28,7 +42,7 @@
       <div class="menu-wrapper flex-col">
         <div class="line w-100 border-b-2 border-gray-500"></div>
 
-          <div class="space flex justify-between py-4">
+          <a class="space flex justify-between py-4" target="_blank" href="https://annysflowersla.com/">
             <div class="chunk flex">
               <div class="number pr-3">01</div>
               <div class="chunk-content">
@@ -43,11 +57,11 @@
               </div>
             </div>
             <div class="arrow pt-4 w-8 h-8 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Redo</title><path d="M448 256L272 88v96C103.57 184 64 304.77 64 424c48.61-62.24 91.6-96 208-96v96z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg> </div>
-          </div>
+          </a>
 
         <div class="line w-100 border-b-2 border-gray-500"></div>
 
-        <div class="space flex justify-between py-4">
+        <a class="space flex justify-between py-4 " target="_blank" href="https://codepen.io/jerryv45/full/NWvygPw">
             <div class="chunk flex">
               <div class="number pr-3">02</div>
               <div class="chunk-content">
@@ -62,11 +76,11 @@
               </div>
             </div>
             <div class="arrow pt-4 w-8 h-8 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Redo</title><path d="M448 256L272 88v96C103.57 184 64 304.77 64 424c48.61-62.24 91.6-96 208-96v96z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg> </div>
-          </div>
+          </a>
 
         <div class="line w-100 border-b-2 border-gray-500"></div>
 
-        <div class="space flex justify-between py-4">
+        <a class="space flex justify-between py-4" target="_blank" href="https://codepen.io/jerryv45/full/BadxbdL">
             <div class="chunk flex">
               <div class="number pr-3">03</div>
               <div class="chunk-content">
@@ -81,11 +95,11 @@
               </div>
             </div>
             <div class="arrow pt-4 w-8 h-8 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Redo</title><path d="M448 256L272 88v96C103.57 184 64 304.77 64 424c48.61-62.24 91.6-96 208-96v96z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg> </div>
-          </div>
+          </a>
 
         <div class="line w-100 border-b-2 border-gray-500"></div>
 
-        <div class="space flex justify-between py-4">
+        <a class="space flex justify-between py-4" target="_blank" href="https://codepen.io/jerryv45/full/yLowxeW">
             <div class="chunk flex">
               <div class="number pr-3">04</div>
               <div class="chunk-content">
@@ -100,7 +114,7 @@
               </div>
             </div>
             <div class="arrow pt-4 w-8 h-8 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Redo</title><path d="M448 256L272 88v96C103.57 184 64 304.77 64 424c48.61-62.24 91.6-96 208-96v96z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg> </div>
-          </div>
+          </a>
           
         <div class="line w-100 border-b-2 border-gray-500"></div>
 
@@ -115,13 +129,12 @@
 <div class="contact-section flex flex-col py-24">
   <div class="talk text-4xl font-medium">Let's Talk</div>
   <h3 class="contact flex py-20">
-    <div class="contact-me text-8xl font-bold underline underline-offset-3 cursor-pointer">Contact Me </div> 
+    <div class="contact-me text-8xl font-bold underline underline-offset-3 cursor-pointer"> <RouterLink to="/contact">Contact Me </RouterLink> </div> 
     <div class="arrow pt-4 ml-6 w-24 h-24 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Exit</title><path d="M320 176v-40a40 40 0 00-40-40H88a40 40 0 00-40 40v240a40 40 0 0040 40h192a40 40 0 0040-40v-40M384 176l80 80-80 80M191 256h273" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>  </div>
 </h3>
 </div>
-
+  
 <div class="line w-100 border-b-2 border-gray-500"></div>
 
 </main>
 </template>
-

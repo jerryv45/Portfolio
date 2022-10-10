@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
 
 </script>
 
 <template>
   <header>
-    <div class="navbar sticky w-full flex justify-between m-0 p-0 container mx-auto "> 
+  <div class="wrapper">
+  </div>
+    <div class="navbar sticky w-full flex flex-row justify-between m-0 p-0 mx-auto  "> 
       <p class="name">Jerry Velasquez</p>
       <p class="occupation">Web Developer__</p>
 
@@ -19,7 +20,7 @@ import { RouterLink, RouterView } from "vue-router";
         </ul>
       </span>
 
-      <div class="menu">
+      <div class="mb-3">
         X
       </div>
     </div>
@@ -27,17 +28,7 @@ import { RouterLink, RouterView } from "vue-router";
   
 <RouterView />
 
-
-    <div class="wrapper">
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
   </header>
-
-  
 </template>
 
 <style>
