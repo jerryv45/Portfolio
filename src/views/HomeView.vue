@@ -15,11 +15,11 @@
       
       <!--  -->
       <div>
-      <b-button v-b-modal.modal-xl>Launch overflowing modal</b-button>
+      <b-button v-b-modal.modal-xl class="text-xs m-2 !rounded-full !bg-blue-500" >Resume</b-button>
 
       <b-modal id="modal-xl" title="Extra Large Modal" size="xl">
         <p class="m-0 w-full h-full" v-for="i in 1" :key="i">
-          <iframe src="public/uploads/JV WD Resume 2.pdf" frameborder="0" width="100%" height="700px"></iframe>
+          <iframe src="uploads/JV WD Resume 2.pdf" frameborder="0" width="100%" height="700px"></iframe>
         </p>
       </b-modal>
     </div>

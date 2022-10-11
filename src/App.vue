@@ -20,7 +20,7 @@
         </ul>
       </span>
 
-      <div class="mb-3">
+      <div class="mb-3  w-5 h-5 grid place-items-center">
         X
       </div>
     </div>

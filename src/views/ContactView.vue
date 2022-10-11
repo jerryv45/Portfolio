@@ -3,7 +3,7 @@
 
   <div class="contact flex flex-col justify-center place-items-center w-screen h-screen absolute left-0 top-0 border">
 
-  <div class="home-arrow w-8 h-8 grid place-items-center absolute left-20 top-40 text-xl"><RouterLink to="/">Back</RouterLink></div>
+  <RouterLink to="/"><div class="home-arrow w-8 h-8 grid place-items-center absolute left-20 top-40 text-xl"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Arrow Back</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M244 400L100 256l144-144M120 256h292"/></svg></div></RouterLink>
 
     
     
