@@ -2,6 +2,7 @@
 
 html, body {
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
 }
 
 #app {
@@ -26,4 +27,10 @@ a,
   #app {
     margin: 1rem;
   }
+}
+
+@media (min-width: 1024px) {
+    .lg\:-bottom-96 {
+        bottom: -34rem/* -384px */;
+    }
 }

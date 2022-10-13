@@ -3,6 +3,19 @@
 
 <template>
   <main>
+    <div class="first-circle -z-20 absolute -top-96 right-38
+                md:-top-20">
+    <svg width="150vw" height="150vh" viewBox="0 0 1221 1221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="610.5" cy="610.5" r="610.5" fill="url(#paint0_radial_3_34)"/>
+<defs>
+<radialGradient id="paint0_radial_3_34" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(610.5 610.5) rotate(90) scale(610.5)">
+<stop stop-color="#D16BA5"/>
+<stop offset="0.5" stop-color="#86A8E7" stop-opacity="0.565"/>
+<stop offset="1" stop-color="#5FFBF1" stop-opacity="0.13"/>
+</radialGradient>
+</defs>
+</svg>
+</div>
   <div class="text-2xl sm:text-5xl md:text-7xl lg:text-8xl font-main font-black m-12 sm:m-24 lg:m-48 text-center">Hi I'm Jerry, Front End Web Developer</div>
 
   <div class="line w-100 border-b-2 border-gray-500"></div>
@@ -31,13 +44,27 @@
 
   <div class="line w-100 border-b-2 border-gray-500"></div>
 
-  <div class="section-3 flex w-100 pb-28">
-    <div class="vertical-flex flex-col w-5/12">
+  <div class="section-3 flex w-100 pb-28 relative">
+    <div class="vertical-flex flex-col w-5/12 ">
 
       <div class="title-wrapper pt-28 pb-28">
         <h3 class="title text-4xl font-semibold">Selected Works</h3>
         <h4 class="subtitle text-xs">Below are some of my recent projects!</h4>
       </div>
+
+      <div class="second-circle -z-20 absolute -bottom-64 -right-40 md:-right-56 lg:-bottom-96">
+                <svg width="140vw" height="140vh" viewBox="0 0 1184 1184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="592" cy="592" r="592" fill="url(#paint0_radial_3_48)"/>
+<defs>
+<radialGradient id="paint0_radial_3_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(592 592) rotate(38.344) scale(628.859)">
+<stop stop-color="#2961FF"/>
+<stop offset="0.515625" stop-color="#519DFF" stop-opacity="0.484375"/>
+<stop offset="1" stop-color="#52FBAA" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
+
+     </div>
 
       <div class="menu-wrapper flex-col">
         <div class="line w-100 border-b-2 border-gray-500"></div>
