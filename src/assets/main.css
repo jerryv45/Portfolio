@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;1000&display=swap');
 
+:root {
+  --main-color: #2a2a2a;
+  /*#fc92f7 #1F85DE #9c1fde #2a2a2a #e52323*/
+}
+
 html, body {
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
@@ -12,16 +17,32 @@ html, body {
 
   font-family: 'Nunito', sans-serif;
 
-  color: #1a1a1a;
+  color: var(--main-color);
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  /* color: hsla(160, 100%, 37%, 1); */
   transition: 0.4s;
 }
 
+a {
+  color: var(--main-color) !important;
+  text-decoration: none;
+}
+
+.button {
+  background-color: var(--main-color) !important;
+}
+
+.line {
+  border-color: var(--main-color);
+}
+
+.ionicon {
+  fill: var(--main-color);
+}
 
 @media only screen and (max-width: 600px) {
   #app {

@@ -16,21 +16,21 @@
 </defs>
 </svg>
 </div>
-  <div class="text-2xl sm:text-5xl md:text-7xl lg:text-8xl font-main font-black m-12 sm:m-24 lg:m-48 text-center">Hi I'm Jerry, Front End Web Developer</div>
+  <div class="text-5xl md:text-7xl my-32 md:my-32 lg:px-64 md:leading-[6rem] lg:text-8xl lg:leading-[8rem] font-main font-black sm:m-24 text-center">Hi I'm Jerry, Front End Web Developer</div>
 
   <div class="line w-100 border-b-2 border-gray-500"></div>
 
   <div class="section-2">
-    <div class="section-2-wrapper flex items-center m-8 sm:m-8 lg:m-24 justify-evenly">
-      <div class="floaty text-sm m-2 w-10">About</div>
-      <h3 class="paragraph sm:text-3xl md:text-2xl lg:text-3xl  sm:p-6  lg:p-10 text-center  ">My name's Jerry Velasquez and I have a passion for web design and UX/UI Development. I also enjoy Hip Hop/R&B music & I love to listen to music while I code.</h3>
+    <div class="section-2-wrapper flex flex-col items-center mx-2 my-24 h-56 md:m-8 lg:m-24 justify-evenly">
+      <div class="floaty text-sm m-0 w-10">About</div>
+      <h3 class="paragraph sm:text-3xl md:text-2xl lg:text-3xl py-6 px-2 lg:p-10 text-center  ">I'm a Front End Web Developer that always focuses on optimizing problems and finding the best possible solution. My favorite part of Web Development is CSS and I would say that's my strongest suit.</h3>
       <!-- <a class="floaty-2 text-xs sm:text-xs m-2 w-10 " target="_blank" href="">Resume</a> -->
       
       <!--  -->
       <div>
-      <b-button v-b-modal.modal-xl class="text-xs m-2 !rounded-full !bg-blue-500" >Resume</b-button>
+      <b-button v-b-modal.modal-xl class="text-xxs m-2 !rounded-full button" >Resume</b-button>
 
-      <b-modal id="modal-xl" title="Extra Large Modal" size="xl">
+      <b-modal id="modal-xl" title="Resume" size="xl">
         <p class="m-0 w-full h-full" v-for="i in 1" :key="i">
           <iframe src="uploads/JV WD Resume 2.pdf" frameborder="0" width="100%" height="700px"></iframe>
         </p>
@@ -45,7 +45,7 @@
   <div class="line w-100 border-b-2 border-gray-500"></div>
 
   <div class="section-3 flex w-100 pb-28 relative">
-    <div class="vertical-flex flex-col w-5/12 ">
+    <div class="vertical-flex flex-col w-100 !md:w-5/12 ">
 
       <div class="title-wrapper pt-28 pb-28">
         <h3 class="title text-4xl font-semibold">Selected Works</h3>
@@ -156,8 +156,8 @@
 <div class="contact-section flex flex-col py-24">
   <div class="talk text-4xl font-medium">Let's Talk</div>
   <h3 class="contact flex py-20">
-    <div class="contact-me text-8xl font-bold underline underline-offset-3 cursor-pointer"> <RouterLink to="/contact">Contact Me </RouterLink> </div> 
-    <div class="arrow pt-4 ml-6 w-24 h-24 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Exit</title><path d="M320 176v-40a40 40 0 00-40-40H88a40 40 0 00-40 40v240a40 40 0 0040 40h192a40 40 0 0040-40v-40M384 176l80 80-80 80M191 256h273" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>  </div>
+    <div class="contact-me text-6xl md:text-8xl font-bold underline underline-offset-3 cursor-pointer"> <RouterLink to="/contact">Contact Me </RouterLink> </div> 
+    <div class="arrow pt-4 ml-5 w-12 h-12 md:ml-6  md:w-24 md:h-24 grid place-items-center"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Exit</title><path d="M320 176v-40a40 40 0 00-40-40H88a40 40 0 00-40 40v240a40 40 0 0040 40h192a40 40 0 0040-40v-40M384 176l80 80-80 80M191 256h273" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>  </div>
 </h3>
 </div>
   
