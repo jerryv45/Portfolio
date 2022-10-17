@@ -9,7 +9,12 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
+<<<<<<< HEAD
 
+=======
+dist
+dist-ssr
+>>>>>>> 1efc785 (Rebuild Github Pages)
 coverage
 *.local
 
