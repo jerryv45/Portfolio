@@ -4,7 +4,7 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 import { RouterLink, RouterView } from "vue-router";
-
+import anime from 'animejs';
 
 import "./assets/main.css";
 
@@ -20,5 +20,5 @@ const app = createApp(App);
 app.use(BootstrapVue3);
 app.use(createPinia());
 app.use(router);
-
+app.use(anime);
 app.mount("#app");

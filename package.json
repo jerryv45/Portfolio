@@ -9,10 +9,10 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "deploy": "sh deploy.sh" 
-
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.22.0",
     "bootstrap-vue-3": "^0.3.11",
