@@ -9,3 +9,7 @@ npm run dev
 ```
 
 In order to deploy to production refer to the gh-pages branch here: [gh-pages](https://github.com/jerryv45/Portfolio/blob/gh-pages/README.md)
+
+##Want to see the live site?
+
+[Check me out](https://jerryv45.github.io/Portfolio/)
